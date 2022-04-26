@@ -1,0 +1,35 @@
+## Apres modif du fichier .tmux.conf ##
+
+Utiliser C-x comme touche de fonction
+
+Utiliser C-h pour spliter horizontalement
+Utiliser C-v pour spliter verticalement
+
+Pour passer d'un split à l'autre utiliser Alt + flêche
+Il est possible d'utiliser la souris pour selectionner les split
+
+Pour redimmentioner les splits
+H, J, K, L
+
+Renomer la fenetre avec C-x + ,
+
+Pour crer une fenetre nommé : tmux new -s [nom]
+Pour ce déconnecter d'une fenetre C-x + d
+Pour reprendre la fenetre tmux attach
+Il est possible de faire : tmux attach -t [nom ou numero de la session]
+Pour voir les session en cours il suffit de faire : tmux ls
+
+Pour Copier coller 
+Dans la premiere fenetre faire 
+  C+x + [ puis aller ou tu veux et faire v pour passer en selection puis y
+Dans la deuxieme fenetre faire
+  C+x + ] pour coller 
+  
+Ou utiliser la souris 
+
+
+
+  
+
+
+
